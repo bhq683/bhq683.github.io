@@ -4,7 +4,9 @@ body{
     background-color:#fce2f7;
 }
 header{
-    background-color: #f8c2ea;    
+    background-color: #f8c2ea;  
+    margin-bottom: 0px;
+    padding-bottom: 5px;  
 }
 
 img{
@@ -40,6 +42,16 @@ h1{
     margin-bottom: 0px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+nav {
+    background-color: #ffe8fb; 
+    padding: 10px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 0px;
+    margin-top: 0;
+    padding-top: -5px;
+    border-radius: 4px;
+  }
+
 .nav {
     color: #000000;
     padding-bottom: 0px;

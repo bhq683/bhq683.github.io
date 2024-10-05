@@ -1,6 +1,7 @@
 header {
   background-color: #f8c2ea;
-  margin-bottom: 0; /* Remove bottom margin from header */
+  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 
 .logo {
@@ -15,8 +16,8 @@ hr {
   border: none;
   color: rgb(255, 255, 255);
   background-color: #ffffff;
-  height: 3px;
-  margin: 0; /* Remove margin from hr */
+  height: 0px;
+  margin: 0;
 }
 
 a:hover {
@@ -68,8 +69,10 @@ ul{
 nav {
   background-color: #ffe8fb; 
   padding: 10px 0;
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadows above and below the nav */
-  margin: 0 0px; /* Add margin to ensure it doesn't touch the edges */
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 0px;
+  margin-top: 0;
+  padding-top: -5px;
   border-radius: 4px;
 }
 
