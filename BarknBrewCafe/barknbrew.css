@@ -55,6 +55,7 @@ nav {
 
 .nav a {
     font-size: 26px;
+    display: inline-block;
 }
 
 

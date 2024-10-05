@@ -17,7 +17,7 @@ hr {
   color: rgb(255, 255, 255);
   background-color: #ffffff;
   height: 3px;
-  margin: 0; /* Remove margin from hr */
+  margin: 0;
 }
 
 a:hover{
