@@ -52,13 +52,6 @@ nav {
     border-radius: 4px;
   }
 
-.nav {
-    color: #000000;
-    padding-bottom: 0px;
-    font-size: 26px;
-    margin-bottom: 10;
-    text-decoration: solid;
-}
 .nav a {
     font-size: 26px;
 }
