@@ -14,7 +14,16 @@ h1{
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+.nav {
+    background-color: gray;
+    padding-bottom: 0px;
+    font-size: 26px;
+    margin-bottom: 10;
 
+}
+.nav a {
+    font-size: 26px;
+}
 p {
     font-size: 24px;
 }
@@ -98,18 +107,63 @@ li span {
     background-color:#f8c2ea
 }
 .menu-section h2 {
-    border-bottom: 2px solid #f9f9f9; /* Underline for section headings */
+    border-bottom: 2px solid #f9f9f9;
     padding-bottom: 3px;
 }
-.nav {
-    background-color: gray;
-    padding-bottom: 0px;
-    font-size: 26px;
-    margin-bottom: 10;
+
+footer{
+    background-color: rgb(72, 67, 72);
+    color: white;
+    height: 250px;   
+}
+
+.footerinformation{
+    float: right;
+    margin-top: 40px;
+    align-content: flex-start;
+    margin-right: 40px;
 
 }
-.nav a {
-    font-size: 26px;
+
+.iglogo{
+    width: 40px;
+    margin-top: 10px;
+    margin-left: -10px;
+    
+}
+.username{
+    margin-top: 30px;
+}
+.footermedia{
+    float:left;
+    margin-top: 5px;
+
+}
+.footerlogo{
+    width: 125px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.bnb{
+     margin-left: 60px;
+}
+
+.bnb2{
+    font-size: 14px;
+    margin-top: -19px;
+    margin-left: 85px;
+}
+
+
+.aukiolofooter{
+    float: right;
+    margin-top: 40px;
+    text-align: justify;
+    margin-right: 35px;
+}
+footer p {
+    font-size: 14px;
 }
 @media (max-width: 768px) {
     body {
