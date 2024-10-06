@@ -235,24 +235,6 @@ footer p {
   }
   
   .nav a{
-    margin: 20px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-
-  h1 {
-    font-size: 42px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-
-  .nav a{
     margin: 5px;
   }
 }
