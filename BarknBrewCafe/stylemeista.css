@@ -131,6 +131,7 @@ nav {
     padding-top: 3px;
     padding-bottom: 3px;
     border-radius: 4px;
+    text-align: center;
 }
 
 .nav a {
@@ -140,13 +141,12 @@ nav {
 footer {
   background-color: rgb(72, 67, 72);
   color: white;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
   border-top: 1px solid #e7e7e7;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  flex-shrink: 0;
 }
 
 footer p {
@@ -155,7 +155,7 @@ footer p {
 }
 
 .footer-section {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   flex: 1 1 200px;
   min-width: 150px;
 }
@@ -163,19 +163,33 @@ footer p {
 .footerlogo {
   width: 120px;
   height: 120px;
+  margin: 0 auto; /*Center the logo*/
+  margin-top: 10px
 }
 
 .iglogo {
   width: 40px;
   height: 40px;
+  margin: 0 auto; /*Center the logo*/
 }
-
+.aukiolofooter {
+  margin-top: 10px;
+}
+.footerinformation {
+  margin-top: 10px
+}
 .username {
   display: inline-block;
-  margin-top: 50px;
   margin-left: 10px;
   font-size: 14px;
   color: #fff;
+  text-align: center; /* Center the text */
+}
+.footerinstagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .responsive {
