@@ -55,7 +55,6 @@ nav {
 
 .nav a {
     font-size: 26px;
-    display: inline-block;
 }
 
 
@@ -128,23 +127,20 @@ iframe{
     width:100%
     
 }
-
 footer{
-
-    font-size: 14x;
     background-color: rgb(72, 67, 72);
     height: 150px;
     color: white;
-    height: 300px;
-
-    
+    height: 250px;
 }
-
+footer p {
+    font-size: 14px;
+}
 .footerinformation{
     float: right;
-  margin-top: 40px;
-  align-content: flex-start;
-  margin-right: 40px;
+    margin-top: 40px;
+    align-content: flex-start;
+    margin-right: 40px;
 
 }
 
@@ -158,23 +154,20 @@ footer{
     margin-top: 30px;
 }
 
-    
-
 .footermedia{
     float:left;
     margin-top: 5px;
 
 }
-    .footerlogo{
-        width: 125px;
-        margin-left: 40px;
-        margin-top: 20px;
-        
-    }
+.footerlogo{
+    width: 125px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
 
-    .bnb{
-        margin-left: 60px;
-    }
+.bnb{   
+    margin-left: 60px;
+}
 
 .bnb2{
     font-size: 14px;
@@ -182,13 +175,79 @@ footer{
     margin-left: 85px;
 }
 
-
 .aukiolofooter{
     float: right;
-margin-top: 40px;
-text-align: justify;
-margin-right: 35px;
+    margin-top: 40px;
+    text-align: justify;
+    margin-right: 35px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px){
     
+    img{
+        width: 170px;
+        padding-top: 40px;
+        
+    }
+    
+    h1{
+        font-size: 300%;
+        margin-top: 10px;
+    }
+
+    nav{
+        font-size: 25%;
+    }
+
+    .tervetuloa{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .teht{
+        font-size: 18px;
+    }
+
+    .auki{
+        font-size: 22px;
+    }
+
+    .mape{
+        font-size: 20px;
+    }
+    .lasu{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .huom{
+        font-size: 18px
+    }
+
+
+    footer{
+        font-size: 12px;
+        width:100%;
+
+    }
+    .footerlogo{
+        width:90px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .bnb{
+        font-size:14px ;
+        text-align: left;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .bnb2{
+        font-size: 13px;
+        margin-left: 40px;
+    }
 }
