@@ -1,7 +1,6 @@
 header {
   background-color:#f8c2ea;
   margin-bottom: 0px;
-  padding-bottom: 5px;
 }
 
 .logo {
@@ -122,15 +121,16 @@ div.gallery img {
     box-sizing: border-box;
   }
 
-  nav {
+nav {
     background-color: #ffe8fb; 
     padding: 10px 0;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0 0px;
     margin-top: 0;
-    padding-top: -5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     border-radius: 4px;
-  }
+}
 
 .nav a {
     font-size: 26px;
