@@ -127,127 +127,83 @@ iframe{
     width:100%
     
 }
-footer{
+footer {
     background-color: rgb(72, 67, 72);
-    height: 150px;
     color: white;
-    height: 250px;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 footer p {
-    font-size: 14px;
-}
-.footerinformation{
-    float: right;
-    margin-top: 40px;
-    align-content: flex-start;
-    margin-right: 40px;
-
+    font-size: 16px;
+    margin: 5px 0;
 }
 
-.iglogo{
+.footer-section {
+    margin-bottom: 20px;
+    flex: 1 1 200px;
+    min-width: 150px;
+}
+
+.footerinformation img, .footermedia img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.footerlogo {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.bnb, .bnb2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.iglogo {
     width: 40px;
-    margin-top: 10px;
-    margin-left: -10px;
-    
-}
-.username{
-    margin-top: 30px;
+    height: 40px;
 }
 
-.footermedia{
-    float:left;
-    margin-top: 5px;
-
-}
-.footerlogo{
-    width: 125px;
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-.bnb{   
-    margin-left: 60px;
-}
-
-.bnb2{
+.username {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
     font-size: 14px;
-    margin-top: -19px;
-    margin-left: 85px;
+    color: #fff;
 }
 
-.aukiolofooter{
-    float: right;
-    margin-top: 40px;
-    text-align: justify;
-    margin-right: 35px;
-}
-@media only screen and (max-width: 768px){
-    
-    img{
-        width: 170px;
-        padding-top: 40px;
-        
+/* Responsive styles */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
     }
-    
-    h1{
-        font-size: 300%;
-        margin-top: 10px;
+    .footer-section {
+        width: 100%;
+        text-align: center;
     }
-
-    nav{
-        font-size: 25%;
+    .footerinformation, .aukiolofooter, .footerinstagram {
+        text-align: center;
+        margin: 10px auto;
     }
-
-    .tervetuloa{
-        font-size: 22px;
+    .footermedia {
+        order: -1; /* Move to the top */
+        text-align: center;
     }
-
-    h2{
-        font-size: 20px;
+    .footerlogo {
+        margin: 0 auto;
     }
-
-    .teht{
-        font-size: 18px;
-    }
-
-    .auki{
-        font-size: 22px;
-    }
-
-    .mape{
-        font-size: 20px;
-    }
-    .lasu{
-        font-size: 20px;
-    }
-
-    h3{
-        font-size: 20px;
-    }
-
-    .huom{
-        font-size: 18px
-    }
-
-
-    footer{
-        font-size: 12px;
-        width:100%;
-
-    }
-    .footerlogo{
-        width:90px;
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-    .bnb{
-        font-size:14px ;
-        text-align: left;
-        margin-left: 15px;
-        margin-top: 20px;
-    }
-    .bnb2{
-        font-size: 13px;
-        margin-left: 40px;
+    .bnb, .bnb2 {
+        display: block;
+        text-align: center;
+        margin: 0;
     }
 }

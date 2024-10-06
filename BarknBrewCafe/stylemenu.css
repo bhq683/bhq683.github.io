@@ -134,15 +134,9 @@ footer p {
 }
 
 .footerlogo {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     float: left;
-}
-
-.bnb, .bnb2 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
 }
 
 .iglogo {
@@ -160,6 +154,40 @@ footer p {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+
+    nav {
+        padding: 5px 0;
+        text-align: center;
+        font-size: 14px
+    }
+    .nav a {
+        font-size: 20px;
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+    .menu-section {
+        margin: 5px 0;
+        width: 85%;
+        padding: 5px;
+    }
+    .menu-section h2 {
+        font-size: 18px;
+    }
+    ul {
+        font-size: 17px;
+    }
+    ul li {
+        padding: 10px 10px;
+    }
+    ul li span {
+        font-size: 15px;
+    }
     footer {
         flex-direction: column;
         align-items: center;
@@ -178,10 +206,6 @@ footer p {
     }
     .footerlogo {
         margin: 0 auto;
-    }
-    .bnb, .bnb2 {
-        display: block;
-        text-align: center;
-        margin: 0;
+        display:block;
     }
 }
