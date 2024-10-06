@@ -71,11 +71,13 @@ ul{
   margin-right: 50px;
 }
 
-div.gallery {
+div.gallery { 
     border: 1px solid	 #ccc;
     background-color: #f8c2ea;
     display: table;
     margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     
  }
 
