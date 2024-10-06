@@ -14,7 +14,16 @@ h1{
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-
+  nav {
+    background-color: #ffe8fb; 
+    padding: 10px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 0px; 
+    border-radius: 4px;
+}
+.nav a {
+    font-size: 26px;
+}
 p {
     font-size: 24px;
 }
@@ -31,13 +40,7 @@ header {
     background-color:#f8c2ea;
     margin-bottom: 0px;
 }
-nav {
-    background-color: #ffe8fb; 
-    padding: 10px 0;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 0px; 
-    border-radius: 4px;
-}
+
 a {
     color:#000000;
     border: none;
@@ -94,48 +97,91 @@ li span {
     padding: 10px;
     border: 1px solid #f8c2ea;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color:#f8c2ea
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color:#f8c2ea;
 }
 .menu-section h2 {
-    border-bottom: 2px solid #f9f9f9; /* Underline for section headings */
+    border-bottom: 2px solid #f9f9f9;
     padding-bottom: 3px;
 }
-.nav {
-    background-color: gray;
-    padding-bottom: 0px;
-    font-size: 26px;
-    margin-bottom: 10;
 
+footer {
+    background-color: rgb(72, 67, 72);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.nav a {
-    font-size: 26px;
+
+footer p {
+    font-size: 16px;
+    margin: 5px 0;
 }
+
+.footer-section {
+    margin-bottom: 20px;
+    flex: 1 1 200px;
+    min-width: 150px;
+}
+
+.footerinformation img, .footermedia img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.footerlogo {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.bnb, .bnb2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.iglogo {
+    width: 40px;
+    height: 40px;
+}
+
+.username {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Responsive styles */
 @media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .nav a {
-        font-size: 12px;
-    }
-    .menu-container {
-        flex-direction:column;
+    footer {
+        flex-direction: column;
         align-items: center;
-        gap:10px;
-        padding: 0;
-        
     }
-    .menu-section {
-        margin: 5px 0;
-        width: 90%
-    }
-    .menu section li {
-       flex-direction: column;
-       align-items: flex-start;
-    }
-    .menu section li span {
-        display: block;
+    .footer-section {
         width: 100%;
-        text-align: right;
+        text-align: center;
+    }
+    .footerinformation, .aukiolofooter, .footerinstagram {
+        text-align: center;
+        margin: 10px auto;
+    }
+    .footermedia {
+        order: -1; /* Move to the top */
+        text-align: center;
+    }
+    .footerlogo {
+        margin: 0 auto;
+    }
+    .bnb, .bnb2 {
+        display: block;
+        text-align: center;
+        margin: 0;
     }
 }
