@@ -24,6 +24,7 @@ h1{
 .nav a {
     font-size: 26px;
 }
+
 p {
     font-size: 24px;
 }
@@ -130,7 +131,6 @@ footer p {
 .footerinformation img, .footermedia img {
     width: 30px;
     height: 30px;
-    vertical-align: middle;
 }
 
 .footerlogo {
@@ -160,10 +160,10 @@ footer p {
     nav {
         padding: 1px 0;
         text-align: center;
-        font-size: 14px
+        font-size: 14px;
     }
     .nav a {
-        font-size: 20px;
+        font-size: 16px;
         display: inline-block;
         margin: 0 5px;
     }
