@@ -42,30 +42,33 @@ h1{
   margin-bottom: 30px;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
-
-}
-.paw {
-  margin-top: 20px;
-  margin-bottom: 0px;
-  width: 30px;
 }
 
-.paw2{
-  width: 30px;
-  margin-bottom: 20px;
-  margin-top: 0px;
+h2{
+  text-align: center;
 }
+.otsikko {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  }
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #fce2f7;
     padding: 1;
-    text-align: center;
     margin: 0;
 }
 
 p{
-font-size: 24px;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ul{
+  margin-left: 20px;
+  margin-right: 50px;
 }
 
 div.gallery {
@@ -85,6 +88,7 @@ div.gallery img {
     margin-bottom: 0px;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
   }
 
   div.desc {
