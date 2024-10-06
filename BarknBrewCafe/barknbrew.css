@@ -182,9 +182,17 @@ footer p {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+
+
     header h1 {
-        font-size: 42px
+        font-size: 38px;
+    }
+    h2,h5, .huom {
+        font-size: 18px ;
+    }
+    h3, .auki {
+        font-size: 20px;
     }
     footer {
         flex-direction: column;
@@ -204,10 +212,5 @@ footer p {
     }
     .footerlogo {
         margin: 0 auto;
-    }
-    .bnb, .bnb2 {
-        display: block;
-        text-align: center;
-        margin: 0;
     }
 }
