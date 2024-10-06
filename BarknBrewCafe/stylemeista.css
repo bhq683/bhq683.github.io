@@ -252,7 +252,7 @@ footer p {
   }
 
 .footermedia {
-    order: -1; /* Move to the top */
+    order: -1;
     text-align: center;
   }
 
