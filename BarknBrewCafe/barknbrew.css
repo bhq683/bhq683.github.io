@@ -24,7 +24,6 @@ hr{
     border: none;
     height: 3px;
 }
-
 h1{
     text-align: center; 
     padding: 0px;
@@ -40,7 +39,7 @@ h1{
     color: rgb(255, 255, 255);
     margin-top: 0px;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px #00000080;
 }
 nav {
     background-color: #ffe8fb; 
@@ -127,8 +126,8 @@ h5{
 }
 iframe{
     width:100%
-    
 }
+
 footer {
     background-color: rgb(72, 67, 72);
     color: white;
@@ -141,7 +140,7 @@ footer {
 }
 
 footer p {
-    font-size: 16px;
+    font-size: 19px;
     margin: 5px 0;
 }
 
@@ -180,7 +179,27 @@ footer p {
     font-size: 14px;
     color: #fff;
 }
+.newsletter {
+    background: rgb(72, 67, 72);
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -10px;
 
+}
+
+input, button {
+    padding: 5px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f8c2ea;
+    color: #010101;
+    cursor: pointer;
+}
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
 
