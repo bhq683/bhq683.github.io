@@ -4,7 +4,7 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
     const message = document.getElementById('message');
 
     if (validateEmail(email)) {
-        message.textContent = 'Thank you for subscribing!';
+        message.textContent = 'Kiitos tilauksestasi!';
         message.style.color = 'white';
     } else {
         message.textContent = 'Please enter a valid email address.';
